@@ -1,0 +1,19 @@
+import os 
+import time 
+senha= 0
+whlie senha!= 12345:
+senha = int(input("Digite a senha para entrar no sistema: "))
+print ("senha errada digite novamente")
+os.system("cls")
+    
+print("progama iniciando em ...")
+for c in range (5,-1,-1):
+         print(c)
+         time.sleep(0.5)
+    os.system("cls")     
+    
+print(30 * "*")
+print("programa iniciado")
+print(30 * "*")
+    
+fim= input("aperte uma tecla para terminar !")
